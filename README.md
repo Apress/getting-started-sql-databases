@@ -5,7 +5,7 @@ This repository accompanies [*Getting Started with SQL and Databases*](https://l
 [comment]: #cover
 ![Cover image](978-1-4842-9492-5.jpg)
 
-[Test](#this-space_for_rent)
+[Test](#this-space-for-rent)
 
 Download the files as a zip using the green button, or clone the repository to your machine using Git.
 

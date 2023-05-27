@@ -1,6 +1,6 @@
 #	Getting Started with SQL and Databases
 
-This is support repository for [*Getting Started with SQL and Databases*](https://link.springer.com/book/10.1007/978-1-4842-9493-2) by Mark Simon (Apress, 2023).
+This is support repository for <a href="https://link.springer.com/book/10.1007/978-1-4842-9493-2" target="_blank">*Getting Started with SQL and Databases*</a> by Mark Simon (Apress, 2023).
 
 [comment]: #cover
 ![Cover image](978-1-4842-9492-5.jpg)
@@ -25,7 +25,7 @@ If you want to follow along with the samples, you should install the sample data
 -	[Visit the Sample Database site](#sample-database-site)
 
 	Here you can choose more options to generate one or more sample database scripts.
-	
+
 All three methods will give you essentially the same database. The difference will be in whether the actual data varies.
 
 ###	Using the Scripts
@@ -38,13 +38,13 @@ All three methods will give you essentially the same database. The difference wi
 
 The simplest way to get the database is to get one of the following for your DBMS:
 
--	[PostgreSQL](https://github.com/Apress/getting-started-sql-databases/blob/master/static-scripts/prints-pgsql-10-script.sql)
--	[SQLite](https://github.com/Apress/getting-started-sql-databases/blob/master/static-scripts/prints-sqlite-script-script.sql)
--	[MySQL/MariaDB](https://github.com/Apress/getting-started-sql-databases/blob/master/static-scripts/prints-mysql-mariadb-ansi-script.sql)
--	[Microsoft SQL](https://github.com/Apress/getting-started-sql-databases/blob/master/static-scripts/prints-mssql-16-script.sql)
+-	<a href="https://github.com/Apress/getting-started-sql-databases/blob/master/static-scripts/prints-pgsql-10-script.sql" download>PostgreSQL</a>
+-	<a href="https://github.com/Apress/getting-started-sql-databases/blob/master/static-scripts/prints-sqlite-script-script.sql" download>SQLite</a>
+-	<a href="https://github.com/Apress/getting-started-sql-databases/blob/master/static-scripts/prints-mysql-mariadb-ansi-script.sql" download>MySQL/MariaDB</a>
+-	<a href="https://github.com/Apress/getting-started-sql-databases/blob/master/static-scripts/prints-mssql-16-script.sql" download>Microsoft SQL</a>
 -	Oracle
-	-	[Oracle (Plain)](https://github.com/Apress/getting-started-sql-databases/blob/master/static-scripts/prints-oracle-12-script.sql)
-	-	[Oracle (SQL Plus)](https://github.com/Apress/getting-started-sql-databases/blob/master/static-scripts/prints-oracle-12-plus-script.sql)
+	-	<a href="https://github.com/Apress/getting-started-sql-databases/blob/master/static-scripts/prints-oracle-12-script.sql" download>Oracle (Plain)</a>
+	-	<a href="https://github.com/Apress/getting-started-sql-databases/blob/master/static-scripts/prints-oracle-12-plus-script.sql" download>Oracle (SQL Plus)</a>
 
 If you’re feeling a bit more adventurous, and you want your data to be less predictable, you can use a Dynamic Script File instead.
 
@@ -54,13 +54,13 @@ The following links will generate database script files similar to the static sc
 
 The difference is that the dynamic scripts will have different content every time you download.
 
--	[PostgreSQL](https://sampledb.webcraft101.com/?dbmss[]=pgsql-10&db=prints&br=crlf&refresh&download)
--	[SQLite](https://sampledb.webcraft101.com/?dbmss[]=sqlite-script&db=prints&br=crlf&refresh&download)
--	[MySQL/MariaDB](https://sampledb.webcraft101.com/?dbmss[]=mysql-ansi&db=prints&br=crlf&refresh&download)
--	[Microsoft SQL](https://sampledb.webcraft101.com/?dbmss[]=mssql-16&db=prints&br=crlf&refresh&download)
+-	<a href="https://sampledb.webcraft101.com/?dbmss[]=pgsql-10&db=prints&br=crlf&refresh&download" target="_blank">PostgreSQL</a>
+-	<a href="https://sampledb.webcraft101.com/?dbmss[]=sqlite-script&db=prints&br=crlf&refresh&download" target="_blank">SQLite</a>
+-	<a href="https://sampledb.webcraft101.com/?dbmss[]=mysql-ansi&db=prints&br=crlf&refresh&download" target="_blank">MySQL/MariaDB</a>
+-	<a href="https://sampledb.webcraft101.com/?dbmss[]=mssql-16&db=prints&br=crlf&refresh&download" target="_blank">Microsoft SQL</a>
 -	Oracle
-	-	[Oracle (Plain)](https://sampledb.webcraft101.com/?dbmss[]=oracle-12&db=prints&br=crlf&refresh&download)
-	-	[Oracle (SQL Plus)](https://sampledb.webcraft101.com/?dbmss[]=oracle-12-plus&db=prints&br=crlf&refresh&download)
+	-	<a href="https://sampledb.webcraft101.com/?dbmss[]=oracle-12&db=prints&br=crlf&refresh&download" target="_blank">Oracle (Plain)</a>
+	-	<a href="https://sampledb.webcraft101.com/?dbmss[]=oracle-12-plus&db=prints&br=crlf&refresh&download" target="_blank">Oracle (SQL Plus)</a>
 
 This will download a freshly randomised script for current versions of you preferred DBMS.
 
@@ -68,7 +68,7 @@ If you want to download more than one script, or you want to vary the options, r
 
 ###	Sample Database Site
 
-[https://www.sample-db.net/](https://www.sample-db.net/)
+<a href="https://www.sample-db.net/" target="_blank">https://www.sample-db.net/</a>
 
 The full download page looks like this:
 
@@ -81,23 +81,23 @@ Choose the following options:
 1.	Choose a refresh date. The sample sales data will be calculated up to this date.
 
 	You can leave this at the default.
-	
+
 2.	Select the Sample Database
 
 	For this book the sample es expected to be __Artworks__.
-	
+
 3.	Select the DBMS
 
 	You can choose more than one if you like.
-	
+
 	For Oracle, there are some quirks in the script which may not be understood by your particular client. You can try both scripts and see which one doesn’t have any errors.
-	
+
 4.	(This book doesn’t require these additional tables)
 
 5.	Select the Line Break
 
 	If you’re doing this on macOS or Linux, the standard line break is the __LF__ character. On Windows, you use the __CRLF__ combination. It probably doesn’t matter in most clients.
-	
+
 6.	Click on the generated __Download__ link.
 
 	If you select a single database script, it will be downloaded as a single file with the `.sql` extension. If you choose more than one database file, they will be packaged in Zip file.
@@ -106,10 +106,10 @@ Choose the following options:
 
 The SQL samples in the text are there for you try on your database client. They have also been gathered in single sql files for your convenience:
 
--	[PostgreSQL](https://github.com/Apress/getting-started-sql-databases/blob/master/exercise-files/postgresql.sql)
--	[SQLite](https://github.com/Apress/getting-started-sql-databases/blob/master/exercise-files/sqlite.sql)
--	[MySQL/MariaDB](https://github.com/Apress/getting-started-sql-databases/blob/master/exercise-files/mysql-mariadb.sql)
--	[Microsoft SQL](https://github.com/Apress/getting-started-sql-databases/blob/master/exercise-files/mssql.sql)
--	[Oracle](https://github.com/Apress/getting-started-sql-databases/blob/master/exercise-files/oracle.sql)
+-	<a href="https://github.com/Apress/getting-started-sql-databases/blob/master/exercise-files/postgresql.sql" download>PostgreSQL</a>
+-	<a href="https://github.com/Apress/getting-started-sql-databases/blob/master/exercise-files/sqlite.sql" download>SQLite</a>
+-	<a href="https://github.com/Apress/getting-started-sql-databases/blob/master/exercise-files/mysql-mariadb.sql" download>MySQL/MariaDB</a>
+-	<a href="https://github.com/Apress/getting-started-sql-databases/blob/master/exercise-files/mssql.sql" download>Microsoft SQL</a>
+-	<a href="https://github.com/Apress/getting-started-sql-databases/blob/master/exercise-files/oracle.sql" download>Oracle</a>
 
 
